@@ -18,6 +18,7 @@ public class BaseTest {
                 .beerStyle("Ale")
                 .id(UUID.randomUUID())
                 .createdDate(OffsetDateTime.now())
+                .lastUpdatedDate(OffsetDateTime.now())
                 .price(new BigDecimal("12.99"))
                 .upc(123123123123L)
                 .build();
